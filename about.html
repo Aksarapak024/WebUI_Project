@@ -20,8 +20,8 @@
 
   <!-- Custom styles for this page -->
   <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
 
 
 </head>
@@ -32,12 +32,12 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-slidebar-image sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-wind"></i>
+          <i class="fas fa-snowflake"></i>
         </div>
         <div class="sidebar-brand-text mx-3">Northwind</div>
       </a>
@@ -99,18 +99,19 @@
     </ul>
     <!-- End of Sidebar -->
 
+
     <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content-wrapper" class="d-flex flex-column bg-gray-100">
 
       <!-- Main Content -->
-      <div id="content">
+      <div id="content" class="bgprofile">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-gray-900 topbar mb-4 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>s
           </button>
 
           <!-- Topbar Navbar -->
@@ -143,7 +144,7 @@
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
+                <i class="far fa-bell"></i>
                 <!-- Counter - Alerts -->
                 <span class="badge badge-danger badge-counter">3+</span>
               </a>
@@ -194,7 +195,7 @@
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
+                <i class="far fa-envelope"></i>
                 <!-- Counter - Messages -->
                 <span class="badge badge-danger badge-counter">7</span>
               </a>
@@ -256,11 +257,11 @@
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="index.html" id="userDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Chanon Thamsoonthon</span>
+              <a class="nav-link dropdown-toggle" href="index.html" id="userDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
                 <img class="img-profile rounded-circle"
-                  src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20046277_1451878051558917_4437319611060950406_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=cb9a4d9d13912a6242085b593d98ed64&oe=5D64CA49">
+                  src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20597180_1854196227978056_4582566117527706626_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=8707327e1244319fc422066ae2d0d9b8&oe=5D547460">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -277,97 +278,79 @@
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
-  
-            <div class="card middle">
-                <div class="front">
-                  <img class="img-profile rounded-circle" src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20046277_1451878051558917_4437319611060950406_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=cb9a4d9d13912a6242085b593d98ed64&oe=5D64CA49" alt="">
-                </div>
-                <div class="back">
-                  <div class="back-content middle">
-                    <h2>PROFILE</h2>
-                    <span>CHANON THAMSOONTHON</span><br>
-                    <i class="fa fa-graduation-cap mr-3" aria-hidden="true"></i>
-                    Major : Information Technology<br>
-                    <i class="fa fa-envelope mr-3" aria-hidden="true"></i>
-                    <a href='mailto:s5930211001@phuket.psu.ac.th'>E-mail : s5930211026@phuket.psu.ac.th</a><br>
-                    <i class="fa fa-phone mr-3" aria-hidden="true"></i>
-                    Telephone : 091-0390990
-                    <div class="sm">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-youtube"></i></a>
-                      <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-          
+        <div class="container-fluid">
 
-        
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+              src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20597180_1854196227978056_4582566117527706626_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=8707327e1244319fc422066ae2d0d9b8&oe=5D547460"
+              alt="Card image cap">
+            <h5><div class="card-header text-gray-500">About me</div></h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-light">Student ID: 5930211024</li>
+              <li class="list-group-item bg-light">Name: Aksarapak Santima</li>
+              <li class="list-group-item bg-light">Information Technology</li>
+            </ul>
+          </div>
 
-      
-        <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-transparent">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; Aksarapak Santima <i class="fab fa-studiovinari"></i> 5930211024</span>
+            </div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
 
       </div>
-      <!-- End of Main Content -->
+      <!-- End of Content Wrapper -->
 
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto ">
-            <span>Copyright &copy; Chanon Thamsoonthon - 5930211026</span>
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="index.html">Logout</a>
           </div>
         </div>
-      </footer>
-      <!-- End of Footer -->
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <!-- Logout Modal-->
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-        <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="index.html">Logout</a>
-        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
 
-  <!-- Page level plugins -->
-  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
-  <!-- Page level custom scripts -->
-  <!-- <script src="js/demo/datatables-demo.js"></script> -->
-  <script src="./js/editcus.js"></script>
+    <!-- Page level custom scripts -->
+    <!-- <script src="js/demo/datatables-demo.js"></script> -->
+    <script src="./js/editcus.js"></script>
 
 </body>
 

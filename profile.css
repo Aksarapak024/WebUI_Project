@@ -1,70 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Gugi', cursive;
-  }
-  body{
-    background: #333;
-  }
-  .middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  .card{
-    cursor: pointer;
-    width: 500px;
-    height: 500px;
-    
-    
-  }
-  .front,.back{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    backface-visibility: hidden;
-    position: absolute;
-    transition: transform .6s linear;
-  }
-  .front img{
-    height: 100%;
-  }
-  .front{
-    transform: perspective(600px) rotateY(0deg);
-  }
-  .back{
-    background: #bbbec0;
-    transform: perspective(600px) rotateY(180deg);
-  }
-  .back-content{
-    color: #2c3e50;
-    text-align: center;
-    width: 100%;
-  }
-  .sm{
-    margin: 20px 0;
-  }
-  .sm a{
-    display: inline-flex;
-    width: 40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    color: #2c3e50;
-    font-size: 18px;
-    transition: 0.4s;
-    border-radius: 50%
-  }
-  .sm a:hover{
-    background: #2c3e50;
-    color: rgb(188, 197, 207);
-  }
-  .card:hover > .front{
-    transform: perspective(600px) rotateY(-180deg);
-  }
-  .card:hover > .back{
-    transform: perspective(600px) rotateY(0deg);
-  }
+  font-family: 'Quicksand', sans-serif;
+ }
+
+html, body, div, img, h1 {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+.bgprofile {
+  background-image: url('https://uiaa-web.azureedge.net/wp-content/uploads/2017/12/2018_banner.jpg');
+  background-repeat: no-repeat;
+}
+
+img {
   
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+  -moz-filter: sepia(100%);-webkit-filter(1);
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+  
+
+ 
+  img:hover{
+  filter: sepia(0%);
+  -webkit-filter: sepia(0%);
+  -moz-filter: sepia(0%);
+  -webkit-filter(0);border:2px dashed #c76d6d;
+  border-radius: 50%;} 
+  
+  
+
+.profile .text-container {
+  width: 600px;
+  margin-left: 256px;
+  padding-top: 68.5714285714px;
+  text-align: center;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.profile h1 {
+  margin-bottom: 34.2857142857px;
+  font-weight: 400;
+  font-size: 2.8em;
+  line-height: 1em;
+  letter-spacing: -1px;
+  
+}
+.profile .title {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+}
