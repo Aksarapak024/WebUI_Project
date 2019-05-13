@@ -22,8 +22,8 @@
 
   <!-- Custom styles for this page -->
   <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
 
 
 </head>
@@ -34,85 +34,85 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-slidebar-image sidebar sidebar-dark accordion" id="accordionSidebar">
 
-        <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
-          <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-wind"></i>
-          </div>
-          <div class="sidebar-brand-text mx-3">Northwind</div>
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-snowflake"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Northwind</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="dashboard.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Customer
+      </div>
+
+      <!-- Nav Item - customer management -->
+      <li class="nav-item">
+        <a class="nav-link" href="customer.html">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Customer Management</span>
         </a>
-  
-        <!-- Divider -->
-        <hr class="sidebar-divider my-0">
-  
-        <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-          <a class="nav-link" href="dashboard.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
-        </li>
-  
-        <!-- Divider -->
-        <hr class="sidebar-divider">
-  
-        <!-- Heading -->
-        <div class="sidebar-heading">
-          Customer
-        </div>
-  
-        <!-- Nav Item - customer management -->
-        <li class="nav-item">
-          <a class="nav-link" href="customer.html">
-            <i class="fas fa-fw fa-cog"></i>
-            <span>Customer Management</span>
-          </a>
-          
-        </li>
-        <!-- Divider -->
-        <hr class="sidebar-divider">
-        <!-- Heading -->
-        <div class="sidebar-heading">
-          About Me
-        </div>
-        <!-- Nav Item - about me -->
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">
-            <i class="fas fa-fw fa-user"></i>
-            <span>About Me</span></a>
-        </li>
-  
-        <!-- Divider -->
-        <hr class="sidebar-divider mb-2">
-        
-          <!-- Nav Item - about me -->
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              <i class="fas fa-fw fa-sign-out-alt"></i>
-              Sign Out</a>
-          </li>
-  
-        <!-- Sidebar Toggler (Sidebar) -->
-        <div class="text-center d-none d-md-inline">
-          <button class="rounded-circle border-0" id="sidebarToggle"></button>
-        </div>
-  
-      </ul>
-      <!-- End of Sidebar -->
+
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        About Me
+      </div>
+      <!-- Nav Item - about me -->
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">
+          <i class="fas fa-fw fa-user"></i>
+          <span>About Me</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider mb-2">
+
+      <!-- Nav Item - about me -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-sign-out-alt"></i>
+          Sign Out</a>
+      </li>
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content-wrapper" class="d-flex flex-column bg-gray-100">
 
       <!-- Main Content -->
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-gray-900 topbar mb-4 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>s
           </button>
 
           <!-- Topbar Navbar -->
@@ -128,6 +128,8 @@
               <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
                 aria-labelledby="searchDropdown">
                 <form class="form-inline mr-auto w-100 navbar-search">
+
+
                   <div class="input-group">
                     <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
                       aria-label="Search" aria-describedby="basic-addon2">
@@ -145,7 +147,7 @@
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
+                <i class="far fa-bell"></i>
                 <!-- Counter - Alerts -->
                 <span class="badge badge-danger badge-counter">3+</span>
               </a>
@@ -196,7 +198,7 @@
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
+                <i class="far fa-envelope"></i>
                 <!-- Counter - Messages -->
                 <span class="badge badge-danger badge-counter">7</span>
               </a>
@@ -258,24 +260,25 @@
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
-                <a class="nav-link dropdown-toggle" href="index.html" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Chanon Thamsoonthon</span>
-                  <img class="img-profile rounded-circle"
-                    src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20046277_1451878051558917_4437319611060950406_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=cb9a4d9d13912a6242085b593d98ed64&oe=5D64CA49">
+              <a class="nav-link dropdown-toggle" href="index.html" id="userDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                <img class="img-profile rounded-circle"
+                  src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20597180_1854196227978056_4582566117527706626_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=8707327e1244319fc422066ae2d0d9b8&oe=5D547460">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+
+                <a class="dropdown-item" href="index.html" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
                 </a>
-                <!-- Dropdown - User Information -->
-                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                  
-                  <a class="dropdown-item" href="index.html" data-toggle="modal" data-target="#logoutModal">
-                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Logout
-                  </a>
-                </div>
-              </li>
-            </ul>
-  
-          </nav>
-          <!-- End of Topbar -->
+              </div>
+            </li>
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
@@ -285,7 +288,7 @@
           <!-- <p class="mb-4">You can click on the customer row to see the customer's information</p> -->
 
           <!-- customer detail -->
-          <div class="card shadow mb-4">
+          <div class="card shadow mb-4 bg-dashboard-image-pro">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
               <h6 class="m-0 font-weight-bold text-primary">Customer Detail</h6>
               <div class="dropdown no-arrow"></div>
@@ -334,13 +337,13 @@
                   <input type="text" name="" id="phone" class="form-control">
                 </div>
                 <div class="form-group col-lg-6 col-sm-12">
-                  <button class="btn btn-primary btn-block btn-lg mt-2" id="back">
+                  <button class="btn btn-outline-success btn-block btn-lg mt-2" id="back">
                     <i class="fas fa-check mr-3"></i>Save change
                   </button>
                 </div>
                 <div class="form-group col-lg-6 col-sm-12">
-                  <button class="btn btn-danger btn-block btn-lg mt-2" onclick="back();" id="back">
-                    <i class="fas fa-window-close mr-3"></i>Cancel
+                  <button class="btn btn-outline-danger btn-block btn-lg mt-2" onclick="back();" id="back">
+                    <i class="far fas fa-times mr-3"></i>Cancel
                   </button>
                 </div>
 
@@ -353,12 +356,11 @@
 
       </div>
       <!-- End of Main Content -->
-
       <!-- Footer -->
-      <footer class="sticky-footer bg-white">
+      <footer class="sticky-footer bg-transparent">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Chanon Thamsoonthon - 5930211026</span>
+            <span>Copyright &copy; Aksarapak Santima <i class="fab fa-studiovinari"></i> 5930211024</span>
           </div>
         </div>
       </footer>
