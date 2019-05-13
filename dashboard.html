@@ -20,7 +20,9 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
   <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Caveat+Brush|Fredericka+the+Great|Libre+Barcode+128+Text|Love+Ya+Like+A+Sister|Quicksand"
+    rel="stylesheet">
 
 </head>
 
@@ -30,12 +32,12 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-slidebar-image sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-wind"></i>
+            <i class="fas fa-snowflake"></i>
         </div>
         <div class="sidebar-brand-text mx-3">Northwind</div>
       </a>
@@ -99,17 +101,17 @@
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content-wrapper" class="d-flex flex-column bg-gray-100">
 
       <!-- Main Content -->
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-gray-900 topbar mb-4 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>s
           </button>
 
           <!-- Topbar Navbar -->
@@ -119,7 +121,7 @@
             <li class="nav-item dropdown no-arrow d-sm-none">
               <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
+                 <i class="fas fa-search fa-fw"></i>
               </a>
               <!-- Dropdown - Messages -->
               <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
@@ -142,7 +144,7 @@
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
+                <i class="far fa-bell"></i>
                 <!-- Counter - Alerts -->
                 <span class="badge badge-danger badge-counter">3+</span>
               </a>
@@ -193,7 +195,7 @@
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
+                <i class="far fa-envelope"></i>
                 <!-- Counter - Messages -->
                 <span class="badge badge-danger badge-counter">7</span>
               </a>
@@ -255,11 +257,11 @@
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="index.html" id="userDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Chanon Thamsoonthon</span>
+              <a class="nav-link dropdown-toggle" href="index.html" id="userDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
                 <img class="img-profile rounded-circle"
-                  src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20046277_1451878051558917_4437319611060950406_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=cb9a4d9d13912a6242085b593d98ed64&oe=5D64CA49">
+                  src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/20597180_1854196227978056_4582566117527706626_n.jpg?_nc_cat=100&_nc_ht=scontent.fbkk8-3.fna&oh=8707327e1244319fc422066ae2d0d9b8&oe=5D547460">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -276,11 +278,11 @@
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
-        <div class="container-fluid">
+        <div class="container-fluid bg-gray-100">
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <h1 class="h3 mb-0 text-gray-800 ">Dashboard</h1>
           </div>
 
           <!-- Content Row -->
@@ -288,16 +290,16 @@
 
             <!-- Earnings (Monthly) Card Example -->
             <div class="col-xl-12 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
+              <div class="card border-left-card shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Product</div>
+                      <div class="text-xs font-weight-bold text-gray-500 text-uppercase mb-1">Product</div>
                       <!-- quatity -->
                       <div class="h5 mb-0 font-weight-bold text-gray-800" id="q_product"></div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-barcode fa-2x text-gray-300"></i>
+                      <i class="fas fa-barcode fa-2x text-gray-500"></i>
                     </div>
                   </div>
                 </div>
@@ -306,16 +308,16 @@
 
             <!-- Earnings (Monthly) Card Example -->
             <div class="col-xl-12 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
+              <div class="card border-left-card shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Customer</div>
+                      <div class="text-xs font-weight-bold text-gray-500 text-uppercase mb-1">Customer</div>
                       <!-- quatity -->
                       <div class="h5 mb-0 font-weight-bold text-gray-800" id="q_cus"></div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-users fa-2x text-gray-300"></i>
+                      <i class="fas fa-users fa-2x text-gray-500"></i>
                     </div>
                   </div>
                 </div>
@@ -324,11 +326,11 @@
 
             <!-- Earnings (Monthly) Card Example -->
             <div class="col-xl-12 col-md-6 mb-4">
-              <div class="card border-left-info shadow h-100 py-2">
+              <div class="card border-left-card shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Supplier</div>
+                      <div class="text-xs font-weight-bold text-gray-500 text-uppercase mb-1">Supplier</div>
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
                           <!-- quatity -->
@@ -338,7 +340,7 @@
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-car fa-2x text-gray-300"></i>
+                        <i class="fas fa-truck-loading fa-2x text-gray-500"></i>
                     </div>
                   </div>
                 </div>
@@ -347,15 +349,15 @@
 
             <!-- Pending Requests Card Example -->
             <div class="col-xl-12 col-md-6 mb-4">
-              <div class="card border-left-warning shadow h-100 py-2">
+              <div class="card border-left-card shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Order</div>
+                      <div class="text-xs font-weight-bold text-gray-500 text-uppercase mb-1">Order</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800" id="q_order"></div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-comments fa-2x text-gray-300"></i>
+                        <i class="fas fa-cart-plus fa-2x text-gray-500"></i>
                     </div>
                   </div>
                 </div>
@@ -374,10 +376,10 @@
   <!-- End of Main Content -->
 
   <!-- Footer -->
-  <footer class="sticky-footer bg-white">
+  <footer class="sticky-footer bg-transparent">
     <div class="container my-auto">
       <div class="copyright text-center my-auto">
-        <span>Copyright &copy; Chanon Thamsoonthon - 5930211026</span>
+        <span>Copyright &copy; Aksarapak Santima <i class="fab fa-studiovinari"></i> 5930211024</span>
       </div>
     </div>
   </footer>

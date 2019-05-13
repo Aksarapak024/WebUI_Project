@@ -11,8 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  *{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Quicksand', sans-serif;
  }
+
  :root {
   --blue: #4e73df;
   --indigo: #6610f2;
@@ -6992,7 +6993,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #dfee5c!important;
+  background-color: #160303!important;
 }
 
 .bg-transparent {
@@ -10795,6 +10796,9 @@ a:focus {
 .text-gray-600 {
   color: #858796 !important;
 }
+.text-black-600{
+color: rgb(230, 230, 230) !important;
+}
 
 .text-gray-700 {
   color: #6e707e !important;
@@ -10822,6 +10826,11 @@ a:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.border-left-card{
+  border-left: 0.25rem solid #232830 !important;
+  background: url('https://images.pexels.com/photos/709961/pexels-photo-709961.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
 }
 
 .border-left-primary {
@@ -11604,6 +11613,18 @@ a:focus {
 .bg-login-image {
   /* background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800"); */
   background:url("https://images.pexels.com/photos/936596/pexels-photo-936596.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-slidebar-image{
+  background:url("https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-dashboard-image{
+  background:url("https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-position: center;
   background-size: cover;
 }
